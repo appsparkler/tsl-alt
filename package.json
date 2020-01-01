@@ -6,6 +6,9 @@
   "author": "Aakash Shah <ashah@lowes.com>",
   "license": "MIT",
   "dependencies": {
-    "hapi": "^18.1.0"
+    "@hapi/hapi": "^18.4.0"
+  },
+  "scripts": {
+    "start": "node src/server"
   }
 }
