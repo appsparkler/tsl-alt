@@ -1,1 +1,1 @@
-A Hapi Project :smile:
+:whale: A Hapi Project :smile:
