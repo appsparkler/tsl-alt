@@ -1,14 +1,16 @@
 'use strict';
 
-const Hapi = require('@hapi/hapi');
+// const Hapi = require('@hapi/hapi');
+const Glue = require('@hapi/glue');
+const manifest = {
+  server: {
+      port: 3000,
+      host: 'localhost'
+  }
+}
 
 const init = async () => {
-    const config = {
-        port: 3000,
-        host: 'localhost'
-    };
-    const server = Hapi.server(config);
-
+    const server = await Glue.compose(manifest)
     await server.start();
     console.log('Server running on %s', server.info.uri);
 };
