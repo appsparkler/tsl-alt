@@ -1,0 +1,11 @@
+{
+  "name": "tsl-alt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:appsparkler/tsl-alt.git",
+  "author": "Aakash Shah <ashah@lowes.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^18.1.0"
+  }
+}
